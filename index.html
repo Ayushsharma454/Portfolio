@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>
+        <!-- <li><a class="nav-link scrollto" href="#certification">Certifications</a></li> -->
+        <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Ayush Sharma</h1>
+      <!-- <h2>Full Stack Developer</h2> -->
+      <h1 class="ml15">
+        <span class="word">Full</span>
+        <span class="word">Stack</span>
+        <span class="word">Developer</span>
+      </h1>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+      <script>
+        anime.timeline({ loop: true })
+          .add({
+            targets: '.ml15 .word',
+            scale: [14, 1],
+            opacity: [0, 1],
+            easing: "easeOutCirc",
+            duration: 800,
+            delay: (el, i) => 800 * i
+          }).add({
+            targets: '.ml15',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+          });
+      </script>
+
+      
+      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Me Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <span>About Me</span>
+          <h2>About Me</h2>
+
+        </div>
+
+        <div class="row">
+
+
+
+          <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Ayush Sharma</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>9877356061</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ludhiana,Punjab</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.tech CSE (4th year)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email ID:</strong>
+                    <span>ayushsharma454@gmail.com</span>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="row mt-n4">
+
+
+              <div class="skills-content ps-lg-4">
+                <div class="progress">
+                  <span class="skill">HTML <i class="val">90%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">CSS <i class="val">80%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">JavaScript <i class="val">75%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Bootstrap <i class="val">70%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">C++ <i class="val">80%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Python <i class="val">75%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Java <i class="val">70%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">React <i class="val">80%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="progress">
+                  <span class="skill">Node.js <i class="val">65%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Angular <i class="val">60%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">GitHub <i class="val">65%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Firebase <i class="val">70%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+    </section><!-- End About Me Section -->
+
+
+    <!-- ======= My Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Projects</span>
+          <h2>My Projects</h2>
+
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">React</li>
+          <li data-filter=".filter-card">Python</li>
+          <li data-filter=".filter-web">JAVA</li>
+          <li data-filter=".filter-web2">Angular</li>
+        </ul>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Covid-19 Tracker.png" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Covid-19 Tracker</h4>
+              <p>Shows real time data about new cases, recovered and deaths.</p>
+              <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="https://covid-19-tracker-a6eee.web.app/" class="details-link" title="App link" target="_blank"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Payroll Management System.png" class="img-fluid"
+                alt=""></div>
+            <div class="portfolio-info">
+              <h4>Payroll Management System</h4>
+              <p>Payroll management system software program  enables the organisations to handle their employee's
+                financial records in a hassle-free and automated fashion.</p>
+              <a href="https://github.com/Ayushsharma454/Payroll-Management-System.git" class="details-link"
+                title="GitHub Link" target="_blank"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/netflix clone.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Netflix Clone</h4>
+              <p>A replica of Netflix app.</p>
+              <a href="https://netflix-clone-e9723.web.app" class="details-link" title="App Link" target="_blank"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+         
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Airbnb Clone.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Airbnb Clone</h4>
+              <p>A replica of Airbnb app.</p>
+              <a href="https://airbnb-clone-4fdd2.web.app" class="details-link" title="App Link" target="_blank"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web2">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ToDo List.png" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>ToDo List</h4>
+              <p> ToDo List helps you to keep record of tasks that you need to complete, or things that you want to do.</p>
+              <a href="https://todo-list-6a541.web.app/" class="details-link" title="GitHub Link" target="_blank"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Expense Tracker.png" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Expense Tracker</h4>
+              <p> Expense tracker helps to keep an accurate record of your money inflow and outflow.</p>
+              <a href="https://expense-tracker-65598.web.app" class="details-link" title="App Link" target="_blank"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+          
+          
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Flappy Bird Game.png" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Flappy Bird Game</h4>
+              <p> This game is a side-scroller where the player controls a bird, attempting to fly between columns knifs
+                without hitting them.</p>
+              <a href="https://github.com/Ayushsharma454/Flappy-Bird-Game.git" class="details-link" title="GitHub Link"
+                target="_blank"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Stock Management System.png" class="img-fluid"
+                alt=""></div>
+            <div class="portfolio-info">
+              <h4>Stock Management System</h4>
+              <p>Stock management system helps in managing product , suppliers information and calculating sales report.
+              </p>
+              <a href="https://github.com/Ayushsharma454/Stock-Management-System.git" class="details-link"
+                title="GitHub Link" target="_blank"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/Jarvis 2.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Jarvis</h4>
+              <p>Desktop Voise Assistance</p>
+              <a href="https://github.com/Ayushsharma454/jarvis.git" class="details-link" title="GitHub Link"
+                target="_blank"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          
+
+         
+        </div>
+
+      </div>
+    </section><!-- End My Portfolio Section -->
+
+
+
+    
+    <!-- ======= My Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Resume</span>
+          <h2>My Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="resume-item pb-0">
+              <h4>Ayush Sharma</h4>
+              <p><em>A patient and enthusiastic individual with an ability to complete any task and to enhance my
+                  technical skills in a stable and dynamic workplace to solve problems in a creative and effective
+                  manner.
+                </em></p>
+              <p>
+              <ul>
+                <li>ayushsharma454@gmail.com</li>
+                <li>9877356061</li>
+                <li>St.no.2,Ho.no.1962,Maharaj nagar Ludhiana, Punjab
+                  Pin code -: 141001
+                </li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology CSE </h4>
+              <h5>2017 - 2021</h5>
+              <p><em>Chandigarh Group of Colleges Jhanjeri Mohali
+                </em></p>
+              <p><em>
+                  Affiliated to IKGPTU, Jalandhar
+                </em></p>
+
+            </div>
+            <div class="resume-item">
+              <h4>Senior Secondary</h4>
+              <h5>2017</h5>
+              <p><em> D.A.V public School
+                </em></p>
+              <p><em> Affiliated to CBSE (New Delhi)
+                </em></p>
+
+            </div>
+
+            <div class="resume-item">
+              <h4>Matriculation</h4>
+              <h5>2015</h5>
+              <p><em> D.A.V public School
+                </em></p>
+              <p><em> Affiliated to CBSE (New Delhi)
+                </em></p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="resume-item pb-0">
+              <h4>SOFTWARE COMPETENCIE</h4>
+
+              <p>
+              <ul>
+                <li> Operating System Known - Windows, Ubuntu Linux.</li>
+                <li>Languages Known - C++, Python, Core Java, JavaScript. </li>
+                <li>Database Known - SQL, MySQL.</li>
+
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h3 class="resume-title">INDUSTRIAL TRAINING</h3>
+
+              <p>
+              <ul>
+                <li> Course:- Core Java </li>
+                <li>Organization:- Yorex Infotech</li>
+                <li>Duration:- June -July, 2019</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h3 class="resume-title">INTERNSHIP</h3>
+
+              <p>
+              <ul>
+                <li> Course:- Python</li>
+                <li>Organization:- VproTech Digital </li>
+                <li>Duration:- February - July, 2021 </li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h3 class="resume-title">Extra-Curricular Activities</h3>
+
+              <p>
+              <ul>
+                <li>NCC C Certificate with grade 'A'. </li>
+                <li>Had been awarded First Aid Senior Professional by Red Cross Society, Mohali. </li>
+                <li>Co-ordinator on the eve of CGC TECH FEST “EMPOWERING YOUTH, EMPOWERING NATION” 2018 held at CGCTC,
+                  Jhanjeri , Mohali.</li>
+                <li>Co-ordinator on the eve of Engineer’s Day 2019 held at CGCTC, Jhanjeri, Mohali.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End My Resume Section -->
+
+
+
+
+    <!-- ======= Contact Me Section ======= -->
+
+
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contact Me</span>
+          <h2>Contact Me</h2>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Me</h3>
+                  <p>ayushsharma454@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>9877356061</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="col-lg-6">
+            <form action="https://formsubmit.co/ayushsharma454@gmail.com" method="post" role="form"
+              class="php-email-form">
+              <div class="row">
+                <!-- <input type="hidden" name="_next" value="thanks.html"> -->
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Me Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
